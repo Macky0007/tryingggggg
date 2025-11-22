@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 import java.util.Arrays;
 public class Gt2_C1B_Dimaculangan_Guce {
+    //yezzir
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
@@ -24,6 +25,7 @@ public class Gt2_C1B_Dimaculangan_Guce {
                 if (upperbound < 100 || upperbound > 10000) {
                     System.out.println("Invalid. Please enter a number between 100 - 10000");
                     sc.nextLine();
+                    System.out.println("yessir");
                 }
             }
             while(upperbound < 100 || upperbound > 10000);
